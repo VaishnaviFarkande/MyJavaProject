@@ -1,4 +1,4 @@
-/*Write a program in java to find the Area and Perimeter of a Rectangle.   
+/*17. Write a program in JAVA to find the Area and Perimeter of a Rectangle.   
 Sample Output:
 Find the Area and Perimeter of a Rectangle :
 -------------------------------------------------
@@ -6,15 +6,15 @@ Input the length of the rectangle : 10
 Input the width of the rectangle : 15
 The area of the rectangle is : 150
 The perimeter of the rectangle is : 50
-*/
-
-import java.util.Scanner;
+ */
+ 
+ import java.util.Scanner;
 public class Area_Perimeter 
 {
     public static void main(String[] args) 
     {
         
-System.out.println("Find the perimeter and area of rectangle:");
+System.out.println("Find the perimeter and area of rectangle:----------------");
         int l, b, perimeter, area;
         Scanner s = new Scanner(System.in);
         System.out.print("Enter length of rectangle:");
