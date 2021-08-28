@@ -1,12 +1,19 @@
-// Java program to print ASCII Value of Character
+/*4.Java Program to Swap Two Numbers*/
 
-public class AsciiValue {
-
-	public static void main(String[] args)
-	{
-
-	char c = 'a';
-	int ascii = c;
-	System.out.println("The ASCII value of " + c + " is: " + ascii);
-	}
+import java.util.*;  
+class Swap_With {  
+    public static void main(String[] args) {  
+       int x, y, t;// x and y are to swap   
+       Scanner sc = new Scanner(System.in);  
+       System.out.println("Enter the value of X and Y");  
+       x = sc.nextInt();  
+       y = sc.nextInt();  
+       System.out.println("before swapping numbers: "+x +"  "+ y);  
+       /*swapping */  
+       t = x;  
+       x = y;  
+       y = t;  
+       System.out.println("After swapping: "+x +"   " + y);  
+       System.out.println( );  
+    }    
 }
